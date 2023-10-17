@@ -7,6 +7,7 @@ let readMore = more.repeat(850)
 let lkr = `╭───❮ *𝙱𝙾𝚃 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}ping_
 │ _${usedPrefix}uptime_
+│ _${usedPrefix}enable_
 │ _${usedPrefix}alive_
 │ _${usedPrefix}owner_
 │ _${usedPrefix}report_
@@ -22,8 +23,9 @@ let lkr = `╭───❮ *𝙱𝙾𝚃 𝙼𝙴𝙽𝚄* ❯
 
 ╭───❮ *𝙾𝚆𝙽𝙴𝚁 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}*on/off* public_
+│ _${usedPrefix}*on/off* autoreact_
 │ _${usedPrefix}update_
-│ _${usedPrefix}enable_
+│ _${usedPrefix}sudo_
 │ _${usedPrefix}autoadmin_
 │ _${usedPrefix}left_
 │ _${usedPrefix}banchat_
@@ -38,7 +40,7 @@ let lkr = `╭───❮ *𝙱𝙾𝚃 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}bcgc_
 │ _${usedPrefix}join_ 
 │ _${usedPrefix}restart_
-│ _${usedPrefix}setppbot_
+│ _${usedPrefix}setpp_
 │ _${usedPrefix}setprefix_
 │ _${usedPrefix}resetprefix_
 │ _${usedPrefix}resetuser_
@@ -57,7 +59,7 @@ ${readMore}
 │ _${usedPrefix}*on/off* antilink_
 │ _${usedPrefix}*on/off* antidelete_
 │ _${usedPrefix}invite_
-│ _${usedPrefix}setpp *image*_
+│ _${usedPrefix}setppgc *image*_
 │ _${usedPrefix}setname *text*_
 │ _${usedPrefix}setdesc *text*_
 │ _${usedPrefix}setwelcome *text*_
@@ -70,6 +72,29 @@ ${readMore}
 │ _${usedPrefix}kicknum_
 │ _${usedPrefix}group *open/close*_
 │ _${usedPrefix}tagall_
+╰─────────────⦁
+
+╭───❮ *𝙵𝚄𝙽 𝙼𝙴𝙽𝚄* ❯
+│ _${usedPrefix}hearts_
+│ _${usedPrefix}moon_
+│ _${usedPrefix}question_
+│ _${usedPrefix}character_
+│ _${usedPrefix}truth_
+│ _${usedPrefix}dare_
+│ _${usedPrefix}flirt_
+│ _${usedPrefix}gay_
+│ _${usedPrefix}meme_
+│ _${usedPrefix}ship_
+│ _${usedPrefix}kill_
+│ _${usedPrefix}kiss_
+│ _${usedPrefix}pat_
+│ _${usedPrefix}slap_
+│ _${usedPrefix}waste_
+│ _${usedPrefix}simpcard_
+│ _${usedPrefix}hornycard_
+│ _${usedPrefix}ytcomment_
+│ _${usedPrefix}stupid_
+│ _${usedPrefix}lolicon_
 ╰─────────────⦁
 
 ╭───❮ *𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙴𝙽𝚄* ❯
@@ -107,27 +132,6 @@ ${readMore}
 │ _${usedPrefix}transfer_
 │ _${usedPrefix}todiamond_
 │ _${usedPrefix}tomoney_
-╰─────────────⦁
-
-╭───❮ *𝙵𝚄𝙽 𝙼𝙴𝙽𝚄* ❯
-│ _${usedPrefix}question_
-│ _${usedPrefix}character_
-│ _${usedPrefix}truth_
-│ _${usedPrefix}dare_
-│ _${usedPrefix}flirt_
-│ _${usedPrefix}gay_
-│ _${usedPrefix}meme_
-│ _${usedPrefix}ship_
-│ _${usedPrefix}kill_
-│ _${usedPrefix}kiss_
-│ _${usedPrefix}pat_
-│ _${usedPrefix}slap_
-│ _${usedPrefix}waste_
-│ _${usedPrefix}simpcard_
-│ _${usedPrefix}hornycard_
-│ _${usedPrefix}ytcomment_
-│ _${usedPrefix}stupid_
-│ _${usedPrefix}lolicon_
 ╰─────────────⦁
 
 ╭───❮ *𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙴𝚁 𝙼𝙴𝙽𝚄* ❯
